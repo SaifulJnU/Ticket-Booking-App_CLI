@@ -1,14 +1,13 @@
 Nana's project idea version wise:
 
 version 10:
-# Project Name: Go Conference (Booking system)
------------------------------------------------
+## Project Name: Go Conference (Booking system)
 
 ---
 
 Task 1. Apply concurrency using synchronous goroutines
 
-### Here if we use normal concurrency mean without synchronizing then for infinite loop we will see our expectd output flow but if we do not use infinite loop and waitgroup then in this case we will not able to see our desire output flow because "By default the main goroutine does not wait for other goroutines" So the solution of this problem is synchonizing go routines using waitgroups.
+Here if we use normal concurrency mean without synchronizing then for infinite loop we will see our expectd output flow but if we do not use infinite loop and waitgroup then in this case we will not able to see our desire output flow because "By default the main goroutine does not wait for other goroutines" So the solution of this problem is synchonizing go routines using waitgroups.
 
 ---
 
@@ -26,8 +25,8 @@ To do so at first we have create waitgroup then we have to place three function 
 
 ---
 
-# More specifically:
--------------------
+## More specifically:
+
 To implement this, we need to perform the following steps:
 ```
 => Create a waitgroup:
